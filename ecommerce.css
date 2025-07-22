@@ -132,7 +132,23 @@
   justify-content: space-around;
   margin-top: 60px;
 }
-
+/* feature sectoin */
+.feature_container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.feature_container h2{
+  color: #0A0826;
+  font-size: 2.4rem;
+}
+.feature_container p{
+  width: 501px;
+  font-size: 1rem;
+  color: #6C6C6C;
+  line-height: 24px;
+  margin-top: 16px;
+}
 /* responsive styles */
 @media screen and (max-width:576px){
   .Navigation{
@@ -156,5 +172,13 @@ row-gap: 13px;
 }
 .sponser_img{
   margin-top: 25px;
+}
+.feature_container{
+flex-direction: column-reverse;
+margin-top: 25px;
+
+}
+.feature_container img{
+  margin: 15px auto;
 }
 }

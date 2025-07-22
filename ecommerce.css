@@ -1,5 +1,10 @@
 /* common style */
-
+.primary-color{
+  color: #3A3A3A;
+}
+.flex{
+  display: flex;
+}
 /* poppins All styles */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -63,3 +68,21 @@
   font-style: normal;
 }
 
+/* Navigation styles */
+.Navigation{
+  align-items: center;
+  justify-content: space-around;
+}
+.Navigation h1{
+  font-size: 1.5rem;
+  color: #3A3A3A;
+}
+
+.list li{
+  list-style: none;
+}
+.list a{
+  text-decoration: none;
+  color: #3A3A3A;
+  font-size: 1rem;
+}

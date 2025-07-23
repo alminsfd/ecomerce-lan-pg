@@ -263,6 +263,9 @@ align-items: center;
 column-gap: 9px;
 row-gap: 13px;
 }
+.sponser_section{
+  margin-top: 50px;
+}
 .sponser_img{
   margin-top: 25px;
 }
